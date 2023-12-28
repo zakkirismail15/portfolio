@@ -6,12 +6,12 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/<REPO-NAME>/',
+    path: '/portfolio/',
     name: 'home',
     component: LandingView,
   },
   {
-    path: '/<REPO-NAME>/about',
+    path: '/portfolio/about',
     name: 'about',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
