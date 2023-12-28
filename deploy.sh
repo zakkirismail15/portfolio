@@ -2,6 +2,7 @@
 # abort on errors
 set -e
 # build
+git push origin -d gh-pages
 npm run build
 # navigate into the build output directory
 cd dist
@@ -13,5 +14,5 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:zakkirismail15/portfolio.git main:gh-pages
+git push -f git@github.com:zakkirismail15/portfolio.git master:gh-pages
 cd -
